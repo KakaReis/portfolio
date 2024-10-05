@@ -1,0 +1,147 @@
+/* Cores:
+
+    #ffffff - Branco
+    #666f98 - Azul claro
+    #424769 - Azul médio
+    #2B324E - Azul Escuro
+    #F7B176 - Bege */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+p {
+    font-family: 'roboto';
+    font-weight: 380;
+}
+
+.divmail {
+  background-color: #424769;
+  color: #ffffff;
+  width: 280px;
+  height: 50px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  border-radius: 100px;
+  margin: 40px 0px 0px 80px;
+}
+
+.cv {
+  background-color: #424769;
+  border: none;
+  color: #ffffff;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  align-items: center;
+  border-radius: 100px;
+  margin: 40px 0px 0px 20px;
+}
+
+.cv:hover {
+  color: #2b324e;
+  font-weight: bold;
+  background-color: #fcc69a;
+  box-shadow: 0px 0px 10px 5px #f7b0767a;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.social {
+  display: inline-block;
+  margin-left: 45%;
+}
+
+.bar {
+  color: #ffffff;
+  display: inline-block;
+  margin: 8px;
+}
+
+.midia {
+  display: inline-block;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.perfil {
+  border-radius: 100%;
+  min-width: 50px;
+  width: 7%;
+  margin: 10px;
+  align-content: center;
+  border: solid 3px #424769;
+}
+
+.banner1 {
+  background-color: #666f98;
+  width: 100%;
+  margin: 20px 0px 0px 0px;
+  padding: 100px 0px;
+  text-align: center;
+  color: #ffffff;
+  font-family: ;
+  font-size: 25px;
+  font-weight: bolder
+}
+
+.container {
+  height: 100%;
+  margin: -80px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  width: 22%;
+  height: 550px;
+  background: rgb(255, 255, 255);
+  margin: 50px;
+  font-size: 16px;
+  box-shadow: 0px 0px 15px 5px #000000;
+  padding: 100px 0px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.icons {
+  width: 25%;
+}
+
+.boxtitulo {
+  color: #2b324e;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.categoria {
+  font-size: 20px;
+  color: #2b324e;
+  font-weight: bolder;
+}
+
+.titulos {
+  color: #ffffff;
+  padding: 100px 0px 50px 0px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.boxport {
+  width: 22%;
+  height: 20px;
+  background: rgb(255, 255, 255);
+  margin: 50px;
+  font-size: 16px;
+  box-shadow: 0px 0px 15px 5px #000000;
+  padding: 100px 0px;
+  text-align: center;
+  border-radius: 20px;
+}
