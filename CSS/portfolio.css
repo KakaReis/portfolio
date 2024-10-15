@@ -103,9 +103,38 @@ a:hover {
   text-decoration: underline;
 }
 
-.img {
-  width: 100vw;
+.modal {
+  background: #306A52;
+  box-shadow: 0px 0px 15px 5px #00000065;
+  margin: auto;
+  margin-top: 100px;
+  align-self: center;
+  width: 60%;
 }
+
+.img {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.text {
+  margin: 150px
+}
+
+.titulo {
+  color: #B4945A;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.textport {
+  text-align: justify;
+  color: #ffffff;
+  font-size: 25px;
+}
+
 
 .rodape {
   box-shadow: 0px 0px 15px 15px #00000065;
@@ -138,4 +167,13 @@ a:hover {
   background-color: #B4945A;
   box-shadow: 0px 0px 10px 5px #B4945A;
   cursor: pointer;
+}
+
+.fa-brands {
+  font-size: 27px;
+  margin: 10px;
+}
+
+.fa-brands:hover {
+  color: #B4945A;
 }
