@@ -7,83 +7,93 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
 header {
-  margin: -0.45%;
-  padding: 0px 0px 50px 0px;
-  height: 100%;
-  background-color: #203F34;
-  border: none;
+    margin: -0.45%;
+    height: 200px;
+    background-color: #203F34;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 p {
-    font-family: 'roboto';
-    font-weight: 380;
+      font-family: 'roboto';
+      font-weight: 380;
 }
 
+.botoes {
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    display: inline-flex;
+}
 
 .contatohd {
-  font-size: 15px;
-  background-color: #B4945A;
-  border: none;
-  color: #ffffff;
-  width: 220px;
-  height: 50px;
-  display: inline-block;
-  align-items: center;
-  border-radius: 100px;
-  margin: 40px 0px 0px 80px;
-  transition: 1.5s
+    font-size: 15px;
+    background-color: #B4945A;
+    border: none;
+    color: #ffffff;
+    width: 220px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 100px;
+    transition: 1.5s
 }
 
 .contatohd:hover {
-  color: #ffffff;
-  background-color: #B4945A;
-  box-shadow: 0px 0px 10px 5px #B4945A;
-  cursor: pointer;
+    color: #ffffff;
+    background-color: #B4945A;
+    box-shadow: 0px 0px 10px 5px #B4945A;
+    cursor: pointer;
 }
 
 .cv {
-  background-color: #B4945A;
-  border: none;
-  color: #ffffff;
-  width: 100px;
-  height: 50px;
-  display: inline-block;
-  align-items: center;
-  border-radius: 100px;
-  margin: 20px 0px 0px 20px;
-  transition: 1.5s
+    background-color: #B4945A;
+    border: none;
+    color: #ffffff;
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+    transition: 1.5s
 }
 
 .cv:hover {
-  color: #ffffff;
-  background-color: #B4945A;
-  box-shadow: 0px 0px 10px 5px #B4945A;
-  cursor: pointer;
+    color: #ffffff;
+    background-color: #B4945A;
+    box-shadow: 0px 0px 10px 5px #B4945A;
+    cursor: pointer;
 }
 
 .social {
-  display: inline-block;
-  margin-left: 45%;
+    margin-right: 4.5%;
+    margin-left: 6.5%;
+    height: 50px;
+    width: 325px;
 }
 
-.bar {
-  color: #ffffff;
-  display: inline-block;
-  margin: 8px;
-}
-
-.midia {
-  display: inline-block;
-}
-
-a {
+.social a{
+  font-family: roboto;
+  font-weight: 380;
   color: #ffffff;
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
+.social a:hover{
+    text-decoration: underline;
+}
+
+.bar {
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.midia {
+    display: inline-block;
 }
 
 .perfil {
@@ -108,18 +118,20 @@ a:hover {
 }
 
 .container {
-  height: 100%;
-  margin: -80px 50px;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 80%;
+  margin: -80px 10%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .box {
-  width: 25%;
+  min-width: 250px;
+  max-width: 400px;
   height: 550px;
   background: rgb(255, 255, 255);
-  margin: 20px;
   font-size: 16px;
   box-shadow: 0px 0px 15px 5px #00000065;
   padding: 100px 0px;
@@ -146,26 +158,39 @@ a:hover {
 .titulos {
   color: #203F34;
   padding: 100px 0px 50px 0px;
+  margin: 2% 10% ;
   text-align: center;
-  font-size: 50px;
+  font-size: 270%;
   font-weight: bold;
 }
 
 .containerport {
-  height: 100%;
-  margin: 0px 50px -20px 50px;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 80%;
+  margin: -50px 10% 100px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.containerimg {
+  gap: 30px;
+  max-width: 400px;
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .imgport {
-
-  width: 435px;
-  height: 300px;
-  background: rgb(255, 255, 255);
-  margin: 20px;
+  height: 100%;
   box-shadow: 0px 0px 15px 5px #00000065;
+  border-radius: 20px;
+}
+
+.aport{
+  height: 276px;
   border-radius: 20px;
 }
 
@@ -179,6 +204,10 @@ a:hover {
   background-color: #203F34;
   border: none;
   text-align: center;
+}
+
+.txtrp {
+  size: 5px;
 }
 
 .contatorp {
@@ -200,4 +229,14 @@ a:hover {
   background-color: #B4945A;
   box-shadow: 0px 0px 10px 5px #B4945A;
   cursor: pointer;
+}
+
+.fa-brands {
+  color: #ffffff;
+  font-size: 27px;
+  margin: 10px;
+}
+
+.fa-brands:hover {
+  color: #B4945A;
 }
