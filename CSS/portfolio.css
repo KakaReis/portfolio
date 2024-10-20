@@ -9,10 +9,23 @@
 
 header {
   margin: -0.45%;
-  padding: 0px 0px 50px 0px;
-  height: 100%;
+  height: 200px;
   background-color: #203F34;
-  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+p {
+    font-family: 'roboto';
+    font-weight: 380;
+}
+
+.botoes {
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  display: inline-flex;
 }
 
 .contatohd {
@@ -22,10 +35,8 @@ header {
   color: #ffffff;
   width: 220px;
   height: 50px;
-  display: inline-block;
-  align-items: center;
+  margin-right: 20px;
   border-radius: 100px;
-  margin: 40px 0px 0px 80px;
   transition: 1.5s
 }
 
@@ -36,29 +47,6 @@ header {
   cursor: pointer;
 }
 
-
-.cv {
-  justify-content: center;
-  background-color: #B4945A;
-  border: none;
-  color: #ffffff;
-  width: 100px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  border-radius: 100px;
-  margin: 40px 0px 0px 20px;
-  transition: 1.5s
-}
-
-.cv:hover {
-  color: #ffffff;
-  background-color: #B4945A;
-  box-shadow: 0px 0px 10px 5px #B4945A;
-  cursor: pointer;
-}
-
-
 .home {
   font-size: 15px;
   background-color: #B4945A;
@@ -66,10 +54,7 @@ header {
   color: #ffffff;
   width: 100px;
   height: 50px;
-  display: inline-block;
-  align-items: center;
   border-radius: 100px;
-  margin: 40px 0px 0px 20px;
   transition: 1.5s
 }
 
@@ -80,30 +65,52 @@ header {
   cursor: pointer;
 }
 
+.cv {
+  background-color: #B4945A;
+  border: none;
+  color: #ffffff;
+  width: 100px;
+  height: 50px;
+  margin-right: 20px;
+
+  border-radius: 100px;
+  transition: 1.5s
+}
+
+.cv:hover {
+  color: #ffffff;
+  background-color: #B4945A;
+  box-shadow: 0px 0px 10px 5px #B4945A;
+  cursor: pointer;
+}
+
 .social {
-  display: inline-block;
-  margin-left: 45%;
+  margin-right: 4.5%;
+  margin-left: 6.5%;
+  height: 50px;
+  width: 325px;
+}
+
+.social a{
+font-family: roboto;
+font-weight: 380;
+color: #ffffff;
+text-decoration: none;
+}
+
+.social a:hover{
+  text-decoration: underline;
 }
 
 .bar {
   color: #ffffff;
   display: inline-block;
-  margin: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .midia {
-  font-family: roboto;
-  font-weight: 350;
   display: inline-block;
-}
-
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .modal {
@@ -133,6 +140,7 @@ a:hover {
 }
 
 .textport {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: justify;
   color: #ffffff;
   font-size: 25px;
@@ -172,7 +180,15 @@ a:hover {
   cursor: pointer;
 }
 
+.contatorp:hover {
+  color: #ffffff;
+  background-color: #B4945A;
+  box-shadow: 0px 0px 10px 5px #B4945A;
+  cursor: pointer;
+}
+
 .fa-brands {
+  color: #ffffff;
   font-size: 27px;
   margin: 10px;
 }
