@@ -1,3 +1,13 @@
+ 
+/*Breakpoints:
+
+      320px — 480px: dispositivos móveis
+      481px — 768px: iPads, tablets
+      769px — 1024px: telas pequenas, laptops
+      1025px — 1200px: desktops, telas grandes
+      1201px e acima —  telas muito grandes, TVs
+*/
+
 /* Cores:
 
     #F2EEDF - Bege
@@ -239,4 +249,13 @@ p {
 
 .fa-brands:hover {
   color: #B4945A;
+}
+
+@media (max-width: 600px){
+  .botoes{
+    
+  }
+  .social{
+    display: none;
+  }
 }

@@ -1,0 +1,27 @@
+.container {
+    min-width: 250px;
+    width: 80vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    border: solid 1px red;}
+
+.boxesquerda{
+    align-items: center;
+    border: solid;
+    min-width: 75px;
+    width: 400px;
+}
+
+.boxesquerda img{
+    min-width: 75px;
+    max-width: 200px;
+}
+
+.boxdireita{
+    border: solid;
+    min-width: 150px;
+    width: 800px;
+}
