@@ -196,3 +196,12 @@ text-decoration: none;
 .fa-brands:hover {
   color: #B4945A;
 }
+
+@media (max-width: 780px){
+  header{
+    justify-content: center;
+  }
+  .social{
+    display: none;
+  }
+}

@@ -30,10 +30,10 @@ header {
     flex-flow: row wrap;
 }
 
-p {
+/* p {
       font-family: 'roboto';
       font-weight: 380;
-}
+} */
 
 .botoes {
     margin-left: 4.5%;
@@ -79,7 +79,6 @@ p {
 
 .social {
     margin-right: 4.5%;
-    margin-left: 6.5%;
     height: 50px;
     width: 325px;
 }
@@ -125,6 +124,15 @@ p {
   font-size: 25px;
   font-weight: bolder;
   box-shadow: 0px 20px 15px 3px #00000065;
+}
+
+.txtbanner{
+  font-family: 'roboto';
+  font-weight: 380;
+}
+
+.pulo{
+  display: none;
 }
 
 .container {
@@ -251,11 +259,21 @@ p {
   color: #B4945A;
 }
 
-@media (max-width: 600px){
-  .botoes{
-    
+@media (max-width: 780px){
+  header{
+    justify-content: center;
   }
   .social{
     display: none;
+  }
+  .banner1 {
+    font-size: 3.5vw;
+    padding: 3%;
+  }
+  .pulo{
+    display: table-column;
+  }
+  .container{
+    justify-content: center;
   }
 }
