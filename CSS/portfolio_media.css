@@ -1,37 +1,37 @@
-@media screen and (max-width: 780px){
-  
-    header{
-      justify-content: center;
-      text-align: center;
-    }
-    
-    .botoes{
-        display: block;
-    }
-  
-    .contatohd{
-      margin-right: 0px;
-    }
-  
-    .cv{
-      margin-top: 15px;
-      margin: 0 20px;
-    }
-  
-    .social{
-      display: none;
-    }
-  
-    .contatorp{
-      margin: 0px 0px 30px 0px;
-    }
-  
-    .txtrp{
-      font-size: 30px;
-    }
+@media screen and (max-width: 780px) {
 
-    .modal{
-        width: 80%;
-    }
-  
+  header {
+    justify-content: center;
+    text-align: center;
   }
+
+  .botoes {
+    display: block;
+  }
+
+  .contatohd {
+    margin-right: 0px;
+  }
+
+  .cv {
+    margin-top: 15px;
+    margin: 0 20px;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .contatorp {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .txtrp {
+    font-size: 30px;
+  }
+
+  .modal {
+    width: 80%;
+  }
+
+}
