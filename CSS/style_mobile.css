@@ -1,0 +1,54 @@
+
+@media screen and (max-width: 780px){
+  
+    header{
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .botoes{
+      display: block;
+    }
+  
+    .contatohd{
+      margin-right: 0px;
+    }
+  
+    .cv{
+      margin-top: 15px;
+    }
+  
+    .social{
+      display: none;
+    }
+  
+    .banner1 {
+      font-size: 3.5vw;
+      padding: 3%;
+    }
+  
+    .pulo{
+      display: table-column;
+    }
+  
+    .container{
+      justify-content: center;
+    }
+  
+    .txtbanner{
+      margin-bottom: 70px;
+    }
+  
+    .contatorp{
+      margin: 0px 0px 30px 0px;
+    }
+  
+    .txtrp{
+      font-size: 30px;
+    }
+  
+    .imgport{
+      height: 100%;
+    }
+  
+  }

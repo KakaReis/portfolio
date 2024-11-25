@@ -18,10 +18,10 @@ header {
   flex-flow: row wrap;
 }
 
-p {
+/* p {
     font-family: 'roboto';
     font-weight: 380;
-}
+} */
 
 .botoes {
   margin-left: 4.5%;
@@ -72,8 +72,6 @@ p {
   color: #ffffff;
   width: 100px;
   height: 50px;
-  margin-right: 20px;
-
   border-radius: 100px;
   transition: 1.5s
 }
@@ -87,7 +85,6 @@ p {
 
 .social {
   margin-right: 4.5%;
-  margin-left: 6.5%;
   height: 50px;
   width: 325px;
 }
@@ -196,13 +193,4 @@ text-decoration: none;
 
 .fa-brands:hover {
   color: #B4945A;
-}
-
-@media (max-width: 780px){
-  header{
-    justify-content: center;
-  }
-  .social{
-    display: none;
-  }
 }
