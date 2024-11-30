@@ -24,8 +24,7 @@ header {
 } */
 
 .botoes {
-  margin-left: 4.5%;
-  margin-right: 4.5%;
+  margin: 0px 4.5%;
   display: inline-flex;
 }
 
@@ -73,7 +72,8 @@ header {
   width: 100px;
   height: 50px;
   border-radius: 100px;
-  transition: 1.5s
+  transition: 1.5s;
+  margin-right: 20px;
 }
 
 .cv:hover {
@@ -127,7 +127,7 @@ text-decoration: none;
 }
 
 .text {
-  margin: 150px
+  margin: 10%
 }
 
 .titulo {
@@ -151,7 +151,7 @@ text-decoration: none;
   margin: 10% -0.45% -0.45% -0.45%;
   padding-top: 50px;
   padding-bottom: 0px;
-  height: 100%;
+  height: 100vw;
   background-color: #203F34;
   border: none;
   text-align: center;
