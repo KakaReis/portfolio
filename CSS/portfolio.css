@@ -151,7 +151,6 @@ text-decoration: none;
   margin: 10% -0.45% -0.45% -0.45%;
   padding-top: 50px;
   padding-bottom: 0px;
-  height: 100vw;
   background-color: #203F34;
   border: none;
   text-align: center;
@@ -178,17 +177,11 @@ text-decoration: none;
   cursor: pointer;
 }
 
-.contatorp:hover {
-  color: #ffffff;
-  background-color: #B4945A;
-  box-shadow: 0px 0px 10px 5px #B4945A;
-  cursor: pointer;
-}
-
 .fa-brands {
   color: #ffffff;
   font-size: 27px;
   margin: 10px;
+  transition: color 0.3s ease;
 }
 
 .fa-brands:hover {
