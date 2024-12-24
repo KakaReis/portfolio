@@ -5,8 +5,12 @@
       justify-content: center;
       text-align: center;
     }
+
+    /* .burger{
+      display: contents;
+    } */
     
-    .botoes{
+    /* .botoes{
       display: block;
     }
   
@@ -20,11 +24,10 @@
   
     .social{
       display: none;
-    }
+    }*/
   
     .banner1 {
       font-size: 3.5vw;
-      padding: 3%;
     }
   
     .pulo{

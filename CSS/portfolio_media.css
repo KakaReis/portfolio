@@ -43,3 +43,11 @@
   }
   
 }
+
+@media screen and (max-width: 550px) {
+  
+  .botoes{
+    flex-flow: column wrap;
+  }
+
+}
