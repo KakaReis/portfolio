@@ -28,8 +28,17 @@
             <a href="pages/embreve.html"><button class="cv">CV</button></a>
             <a href="pages/embreve.html"><button class="orcamento">Orçamento</button></a>
         </div>
-        <div class="burger">
-            <span class="fa-solid fa-bars"></span>
+        <!-- Menu Hamburguer - Mobile -->
+        <div class="hamburguer">
+            <span id="burger" class="fa-solid fa-bars" onclick="clickMenu()"></span>
+            <menu id="itens">
+                <ul>
+                    <li><a href="index.html" class="itemburger">INÍCIO</a></li>
+                    <li><a href="pages/embreve.html" class="itemburger">SOBRE</a></li>
+                    <li><a href="pages/embreve.html" class="itemburger">PORTFÓLIO</a></li>
+                    <li><a href="pages/embreve.html" class="itemburger">CONTATO</a></li>
+                </ul>
+            </menu>
         </div>
 
         <!--
@@ -145,6 +154,16 @@
         <p style="color: #ffffffb9;">Desenvolvido por Kaiky Reis | Copyright ©2024</p>
         <br>
     </footer>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+            }   else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 
 </html>

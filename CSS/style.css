@@ -25,21 +25,24 @@
  }
 
 header {
-    position: fixed;
-    margin: -0.45%;
-    height: 110px;
-    width: 94vw;
-    padding: 0 50px;
-    background-color: #F2EEDF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: row wrap;
-    box-shadow: 0px 0px 15px 5px #00000065;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 95vw;
+  height: 110px;
+  padding: 0 50px;
+  background-color: #F2EEDF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: nowrap;
+  box-shadow: 0px 0px 15px 5px #00000065;
+  z-index: 1000; 
 }
 
 .boxlogo{
-width: 20vw;
+  flex: 1;
+  flex-shrink: 0;
 }
 
 .logo{
@@ -76,10 +79,12 @@ width: 20vw;
     cursor: pointer;
 } */
 
-.nav{
-  text-align: center;
-  width: 50vw;
-}
+  .nav{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+  }
 
 .itemnav{
   font-family: 'roboto';
@@ -112,20 +117,19 @@ width: 20vw;
 }
 
 .botoesnav{
-  text-align: right;
-  width: 20vw;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 0;  
 }
 
-/* .burger{
-  display: none;
-} */
-
-
-.cv {
+.cv, .orcamento {
     background-color: #2696b6;
     border: none;
     color: #ffffff;
-    width: 100px;
+    width: 120px;
+    max-width: 120px;
+    min-width: 50px;
     height: 50px;
     border-radius: 100px;
     transition: 1.5s ease;
@@ -138,22 +142,27 @@ width: 20vw;
     cursor: pointer;
 }
 
-.orcamento {
-  background-color: #2696b6;
-  border: none;
-  color: #ffffff;
-  width: 120px;
-  height: 50px;
-  border-radius: 100px;
-  transition: 1.5s
-}
-
 .orcamento:hover {
   color: #ffffff;
   box-shadow: 0px 0px 5px 5px #2696b6;
   cursor: pointer;
 }
 
+#burger {
+  color: #2696b6;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+menu {
+  display: none;
+}
+
+.hamburguer {
+  display: none;
+}
 /*
 .social {
     margin-right: 4.5%;

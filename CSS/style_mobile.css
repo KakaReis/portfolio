@@ -4,6 +4,7 @@
     header{
       justify-content: center;
       text-align: center;
+      width: 90vw;
     }
 
     /* .burger{
@@ -26,6 +27,19 @@
       display: none;
     }*/
   
+    .itemnav{
+      display: none;
+    }
+    
+    .botoesnav{
+      display: none;
+    }
+
+    .hamburguer{
+      display: block;
+      flex: 1;
+    }
+
     .banner1 {
       font-size: 3.5vw;
     }
