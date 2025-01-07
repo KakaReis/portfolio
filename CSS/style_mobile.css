@@ -2,9 +2,10 @@
 @media screen and (max-width: 780px){
   
     header{
-      justify-content: center;
+      justify-content: space-between;
       text-align: center;
       width: 90vw;
+      padding: 0px 30px;
     }
 
     /* .burger{
@@ -38,6 +39,26 @@
     .hamburguer{
       display: block;
       flex: 1;
+    }
+
+    .menu-itens {
+      left: 60vw;
+      position: fixed;
+      background-color: #F2EEDF;
+      margin-top: 100px;
+      z-index: 1001;
+      border-radius: 0px 0px 10px 10px;
+      box-shadow: 0px 10px 8px 1px #00000065;
+    }
+
+    .menu-itens ul{
+      list-style-type: none;
+    }
+
+    .menu-itens ul li a{
+      text-decoration: none;
+      padding: 50px;
+      color: #2696b6;
     }
 
     .banner1 {
