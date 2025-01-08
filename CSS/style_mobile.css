@@ -4,13 +4,9 @@
     header{
       justify-content: space-between;
       text-align: center;
-      width: 90vw;
+      width: 92vw;
       padding: 0px 30px;
     }
-
-    /* .burger{
-      display: contents;
-    } */
     
     /* .botoes{
       display: block;
@@ -42,27 +38,48 @@
     }
 
     .menu-itens {
-      left: 60vw;
       position: fixed;
+      right: 0vw;
       background-color: #F2EEDF;
       margin-top: 100px;
       z-index: 1001;
       border-radius: 0px 0px 10px 10px;
       box-shadow: 0px 10px 8px 1px #00000065;
+      width: 160px;
     }
 
     .menu-itens ul{
       list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .menu-itens li {
+      padding: 10px 0;
     }
 
     .menu-itens ul li a{
       text-decoration: none;
-      padding: 50px;
-      color: #2696b6;
+      color: #00000065;
     }
+
+    .menu-itens a {
+      text-decoration: none;
+      color: #00000065;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 450;
+      transition: color 0.5s ease;
+  }
+
+  .menu-itens a:hover {
+      color: #2696b6;
+  }
 
     .banner1 {
       font-size: 3.5vw;
+      padding: 160px 10px 30px 10px;
     }
   
     .pulo{
