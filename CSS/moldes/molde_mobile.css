@@ -1,0 +1,78 @@
+@media screen and (max-width: 780px){
+  
+    header{
+      justify-content: space-between;
+      text-align: center;
+      width: 92vw;
+      padding: 0px 30px;
+    }
+    
+    /* .botoes{
+      display: block;
+    }
+  
+    .contatohd{
+      margin-right: 0px;
+    }
+  
+    .cv{
+      margin-top: 15px;
+    }
+  
+    .social{
+      display: none;
+    }*/
+  
+    .itemnav{
+      display: none;
+    }
+    
+    .botoesnav{
+      display: none;
+    }
+
+    .hamburguer{
+      display: block;
+      flex: 1;
+    }
+
+    .menu-itens {
+      position: fixed;
+      right: 0vw;
+      background-color: #F2EEDF;
+      margin-top: 100px;
+      z-index: 1001;
+      border-radius: 0px 0px 10px 10px;
+      box-shadow: 0px 10px 8px 1px #00000065;
+      width: 160px;
+    }
+
+    .menu-itens ul{
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .menu-itens li {
+      padding: 10px 0;
+    }
+
+    .menu-itens ul li a{
+      text-decoration: none;
+      color: #00000065;
+    }
+
+    .menu-itens a {
+      text-decoration: none;
+      color: #00000065;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 450;
+      transition: color 0.5s ease;
+  }
+
+  .menu-itens a:hover {
+      color: #2696b6;
+  }
+}
