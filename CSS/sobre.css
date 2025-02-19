@@ -208,6 +208,39 @@ menu {
   display: none;
 }
 
+#conteudo{
+  margin-top: 150px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+#txt{
+  display: flexbox;
+  max-width: 700px;
+  min-width: none;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+#graficos{
+  display: flex;
+  border: solid 1px #2696b6;
+  max-width: 800px;
+  min-width: 200px;
+}
+
+#itemsobre{
+  max-width: 200px;
+  min-width: 100px;
+  height: 25px;
+  background-color: #F2EEDF;
+  display: flexbox;
+  border-radius: 45px;
+  box-shadow: 0px 0px 5px 2px #00000065;  
+}
+
 
 .rodape {
   box-shadow: 0px 0px 15px 15px #00000065;
